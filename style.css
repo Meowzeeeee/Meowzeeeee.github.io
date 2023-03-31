@@ -1,0 +1,150 @@
+* {
+            margin:0;
+            padding:0;
+            overflow-x: hidden;
+        }
+
+        body {
+
+            background-color: black;
+            background-image: url('Pastel-Cloud.png');
+            margin: 5%;
+        }
+
+        ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+        }
+
+        li {
+           float: left;
+        }
+
+        li a {
+           display: block;
+           padding: 8px;
+           background-color: #ecbcfd;
+           border: 1px solid #ffcbf2
+           font-family: Didot;
+
+        }
+
+        #title {
+           text-align: center;
+           font-size: 7vh;
+           color: white;
+        }
+
+
+        img {
+           display: inline-block;
+           width: 50%;
+        }
+
+        #caption {
+           font-size: 17px;
+           font-family: Didot;
+           color: white;
+        }
+
+        div#content {
+           background-color: #ecbcfd;
+           display: inline-block;
+           width: 50%;
+           height: 30%;
+           color: white;
+           text-align: center;
+           font-family: Didot;
+           padding: 25px 25px;
+           margin: 11px;
+           margin-top: 50px;
+           border: 1px solid #ffcbf2
+
+        }
+
+         div#content2 {
+           background-color: #ecbcfd;
+           display: inline-block;
+           width: 360px;
+           height: 500px;
+           color: white;
+           text-align: center;
+           font-family: Didot;
+           padding: 25px 25px;
+           margin: 11px;
+           margin-top: 50px;
+           border: 1px solid #ffcbf2
+
+        }
+
+        h1.intro {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+        }
+
+
+        .game {
+            padding: 15px;
+            background-color: #ecbcfd;
+            border-radius: 5px;
+            width: 320px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+            grid-template-rows: 80px 80px 80px 80px;
+            border: 1px solid #ffcbf2;
+        }
+
+        .grid button {
+            background-color: #c8e7ff;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border: 1px solid #ffcbf2;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .footer {
+           margin-top: 15px;
+           display: flex;
+           justify-content: space-between;
+        }
+
+        .footer button {
+           border: none;
+           font-size: 20px;
+           font-weight: bold;
+           border-radius: 5px;
+           padding: 5px;
+           width: 80px;
+           background-color: #d0d1ff;
+           color: white;
+           outline: none;
+           cursor: pointer;
+           font-family: Didot;
+        }
+
+        .footer button:hover {
+           color: #c0fdff;
+           background-color: #c8e7ff;
+        }
+
+        .footer span {
+           flex: 1;
+           text-align: center;
+           font-size: 20px;
+           color: white;
+           font-weight: bold;
+           margin: auto 0;
+        }
+
+        .message {
+           color:#c0fdff;
+           height: 80px;
+        }
