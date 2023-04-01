@@ -69,7 +69,7 @@ const isSolved = grid => {
 const getRandomGrid = () => {
   let grid = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]];
 
-  // Shuffle
+  
   let blankBox = new Box(3, 3);
   for (let i = 0; i < 1000; i++) {
     const randomNextdoorBox = blankBox.getRandomNextdoorBox();
@@ -154,7 +154,7 @@ class Game {
   render() {
     const { grid, move, time, status } = this.state;
 
-    // Render grid
+    
     const newGrid = document.createElement("div");
     newGrid.className = "grid";
     for (let i = 0; i < 4; i++) {
